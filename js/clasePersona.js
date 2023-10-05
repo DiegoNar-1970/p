@@ -6,4 +6,3 @@ class Estudiante{
         this.promedio=promedio;
     }
 }
-export default Estudiante;

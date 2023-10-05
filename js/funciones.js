@@ -1,10 +1,4 @@
-const opciones=document.querySelector(".opciones")
-const botonRegistrar = document.querySelector(".boton");
-const botonSubir = document.querySelector(".boton2");
-const botonCalcular = document.querySelector(".boton3");
-const containerPrin = document.querySelector(".contenedora");
-const contentNota=document.querySelector(".contentNota")
-containerPrin.style.display="none"
+
 
 const buscarID=()=>{
     const input_estudiante=document.querySelector(".contentIdEstudiante").value;
@@ -34,5 +28,5 @@ return new Promise((resolve, reject) => {
     if($.isNumeric(contentNota.value)) reject("Tipo de dato incorrecto")
     resolve(contentNota.value);
 })}
-export { agregarId, agregarNota, buscarID, registrarNombre };
+
 

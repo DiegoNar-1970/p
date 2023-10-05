@@ -1,5 +1,3 @@
-import Estudiante from "./clasePersona";
-import { agregarId, agregarNota, buscarID, registrarNombre } from "./funciones";
 
 // i call al the objects for his use
 const opciones=document.querySelector(".opciones")
