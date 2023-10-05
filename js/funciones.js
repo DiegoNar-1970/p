@@ -1,5 +1,4 @@
 
-
 const buscarID=()=>{
     const input_estudiante=document.querySelector(".contentIdEstudiante").value;
     const idEstudiante=input_estudiante
