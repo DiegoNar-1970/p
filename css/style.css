@@ -1,0 +1,93 @@
+*{
+font-family: sans-serif;
+}
+body{
+background-color: black;
+}
+main{
+display: flex;
+flex-wrap: wrap;
+height: 100%;
+flex-direction: column;
+}
+.articulo{
+height: 100vw;
+padding: 15px;
+}
+.titulo_opcion{
+display: flex;
+color: chartreuse;
+justify-content: center;
+margin: 20px;
+
+}
+.opciones{
+display: flex;
+margin: auto;
+margin-top: 28px;
+}
+.box-option{
+display: flex;
+justify-content: center;
+margin: 10px;
+padding: 3px;
+display: inline;
+height: 100px;
+align-items: center;
+flex-direction: column;
+
+}
+.contenedora {
+flex-grow: 1;
+background-color: rgb(8, 8, 8);
+display: flex;
+justify-content: space-evenly;
+padding: 10px;
+margin: 10px;
+outline: 1px solid green;
+text-align: center;
+flex-wrap: wrap;
+align-content: flex-start;
+
+
+}
+.notas {
+color: chartreuse;
+margin: 5px;
+}
+.contentIdEstudiante{
+
+margin-top: 12px;
+padding: 10px;
+position: relative;
+margin: 5px;
+}
+.contentNota {
+margin: auto;
+margin-top: 12px;
+padding: 10px;
+position: relative;
+margin: 5px;
+}
+.boton,.boton2,.boton3{
+margin-top: 12px;
+width: 150px;
+height: 25px;
+display: none;
+}
+.content_inputs{
+margin: 8px;
+}
+.contenedor_boton{
+align-items: center;
+}
+.tRegistro,.tPromedio{
+display: none;
+outline: 1px solid green;
+}
+
+.mensaje{
+    display: flex;
+    align-items: center;
+    text-wrap: balance;
+}
