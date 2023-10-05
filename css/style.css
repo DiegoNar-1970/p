@@ -2,7 +2,8 @@
 font-family: sans-serif;
 }
 body{
-background-color: black;
+background: linear-gradient(to left, transparent,  #796fff 0%, #974fb4 70%);
+
 }
 main{
 display: flex;
@@ -16,7 +17,7 @@ padding: 15px;
 }
 .titulo_opcion{
 display: flex;
-color: chartreuse;
+color: rgb(5, 5, 5);
 justify-content: center;
 margin: 20px;
 
@@ -39,19 +40,23 @@ flex-direction: column;
 }
 .contenedora {
 flex-grow: 1;
-background-color: rgb(8, 8, 8);
+background-color: rgba(255, 255, 255, 0.30);
 display: flex;
 justify-content: space-evenly;
 padding: 10px;
 margin: 10px;
-outline: 1px solid green;
 text-align: center;
 flex-wrap: wrap;
 align-content: flex-start;
+<<<<<<< Updated upstream
+=======
+height: 300px;
+border-radius: 6%;
+>>>>>>> Stashed changes
 
 }
 .notas {
-color: chartreuse;
+color: rgb(0, 0, 0);
 margin: 5px;
 }
 .contentIdEstudiante{
@@ -73,6 +78,7 @@ margin-top: 12px;
 width: 150px;
 height: 25px;
 display: none;
+padding: 8px;
 }
 .content_inputs{
 margin: 8px;
@@ -82,11 +88,14 @@ align-items: center;
 }
 .tRegistro,.tPromedio{
 display: none;
-outline: 1px solid green;
+outline: 1px solid rgb(247, 244, 244);
 }
 
 .mensaje{
     display: flex;
     align-items: center;
     text-wrap: balance;
+}
+.opciones{
+    padding: 8px;
 }
